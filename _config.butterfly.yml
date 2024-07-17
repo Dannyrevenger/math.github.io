@@ -46,7 +46,7 @@ favicon: /img/favicon.png
 avatar:
   # img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
   img: https://github.com/Dannyrevenger/image/blob/main/math.png
-  effect: false
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
