@@ -1,8 +1,8 @@
 title: Math
 subtitle: ''
-description: This is a math blog!
+description: ''
 keywords: null
-author: Daniel 
+author: Daniel Clover
 language: en
 timezone: ''
 url: https://math.mohist.shop/
@@ -63,3 +63,30 @@ deploy:
   type: git
   repo: https://github.com/Dannyrevenger/math.github.io.git
   branch: gh-pages
+math:
+  katex:
+    css: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+    options:
+      throwOnError: false
+  mathjax:
+    css: 'https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css'
+    options:
+      conversion:
+        display: false
+      tex: {
+          packages: {'[+]': ['physics', 'mhchem', 'ams', 'bbox', 'color', 'newcommand', 'tikz']}
+        }
+      svg:
+        # tags: 'ams'
+
+local_search:
+  enable: true
+  # Preload the search data when the page loads.
+  preload: false
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: true
+  CDN:
+
+ 

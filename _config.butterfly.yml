@@ -41,7 +41,7 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /img/math.png
 
 # Avatar (頭像)
 avatar:
@@ -228,7 +228,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: This is a Blog that aims to discuss Mathematics. Since I just uploaded my perspective and understanding of Mathematical questions, so I sincerely hope experts can revise my misunderstanding and even better add some new supplementary perspectives which are of great honor.
     button:
       enable: true
       icon: fab fa-github

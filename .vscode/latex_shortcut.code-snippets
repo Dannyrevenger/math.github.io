@@ -1,0 +1,28 @@
+{
+	"accumulation": {
+		"prefix": "!s",
+		"body": [
+			"\\sum_{}^{}()"
+		]
+	},
+	"start inline equation": {
+		"prefix": "!b",
+		"body": [
+			"{% mathjax %}"
+		]
+	},
+	"end inline equation": {
+		"prefix": "!e",
+		"body": [
+			"{% endmathjax %}"
+		]
+	},
+	"katex": {
+		"prefix": "!k",
+		"body": [
+			"\t\t\t{% katex %}",
+			"\t\t\t\t",
+			"\t\t\t{% endkatex %}"
+		]
+	},
+}
