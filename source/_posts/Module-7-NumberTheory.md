@@ -1,5 +1,5 @@
 ---
-title: 'Module 7: Number Theory'
+title: 'Lecture 9A: Number Theory'
 date: 2024-07-18 15:14:45
 tags: "notes"
 katex: true
@@ -12,3 +12,5 @@ Without lose of generality, we can suppose p, q, a, and b are positive, since th
 For p=a, since gcd(p,a)=1, we can get p=1, and p divides b trivially.
 For p < a, one has p(q-b)=(a-p)b. Since gcd(p,a)=1, then gcd(p,(a-p))=1. Now we have to show that p|b. Since {% mathjax %} (a-p)b < ab {% endmathjax %}, then by induction hypothesis we can get p|b.
 For p > a, one has (p-a)q=a(b-q). Since gcd(p,a)=1, then gcd((p-a),a)=1. Now we have to show that (p-a)|(b-q). We know that a(b-q) < ab. So by induction hypothesis, we can get (p-a)|(b-q). So there exists an integer k such that (p-a)k = (b-q). So, (p-a)q=a(p-a)k, and by dividing by (p-a), one has q=ak. Therefore, pq=pak=ab, and by dividing by a, one has pk=b, the desired result.
+
+Refernce: https://www.youtube.com/watch?v=LZRESW_4OZU

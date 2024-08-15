@@ -228,7 +228,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: This is a Blog that aims to discuss Mathematics. Since I just uploaded my perspective and understanding of Mathematical questions, so I sincerely hope experts can revise my misunderstanding and even better add some new supplementary perspectives which are of great honor.
+    description: Found a typo or error? Feel free to report it on GitHub. I'll make sure to address it as soon as possible!
     button:
       enable: true
       icon: fab fa-github
@@ -236,7 +236,7 @@ aside:
       link: https://github.com/Dannyrevenger
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: Assignment 9 is now available! 
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
