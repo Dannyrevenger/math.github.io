@@ -228,7 +228,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: Found a typo or error? Feel free to report it on GitHub. I'll make sure to address it as soon as possible!
+    description: Updates on my expository study notes, discussion of open problems, and other maths-related topics. By Daniel Clover
     button:
       enable: true
       icon: fab fa-github
