@@ -1,5 +1,5 @@
 ---
-title: 'Assignment 10: Real Analysis'
+title: 'Assignment 10.1: Real Analysis'
 date: 2024-07-25 15:14:45
 tags:
 katex: true
